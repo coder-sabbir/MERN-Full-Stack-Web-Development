@@ -108,7 +108,8 @@ function FindAllDataByProjection(MyMongoClinet) {
     var MyCollection= MyDataBase.collection('students');
 
     var ItemObj={}
-    var ItemProjection={projection:{Class:"",Roll:""}}
+    // var ItemProjection={projection:{Class:"",Roll:""}}  Wrong In Video
+    var ItemProjection={projection:{Class:1,Roll:1}} // This is correct
 
     MyCollection.find(ItemObj,ItemProjection).toArray(function (error,result) {
         console.log(result)
