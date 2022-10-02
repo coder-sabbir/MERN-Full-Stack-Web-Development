@@ -1,36 +1,30 @@
 var MongoClient=require('mongodb').MongoClient;
 
-var URL="mongodb://127.0.0.1:27017/";
+var URL="mongodb+srv://testuser7777:testuser7777@cluster0.7uslu.mongodb.net/?retryWrites=true&w=majority";
 
 var config= { useUnifiedTopology: true };
 
 MongoClient.connect(URL,config,function (error,MyMongoClinet) {
     if(error){
         console.log("Connection Fail")
+
+
+
+      // WE ARE STARTING........ 
+      // WAIT 2/3 MIN>......      
+
+
+
+
+
+
+
     }
     else{
         console.log("Connection Success");
-
-       // InsertData(MyMongoClinet);
-
-        DeleteOneItem(MyMongoClinet);
-        //DeleleAllItem(MyMongoClinet);
-        //FindOneWithoutCondition(MyMongoClinet)
-        //FindOneWithCondition(MyMongoClinet);
-       // FindAllData(MyMongoClinet)
-       // FindAllDataByProjection(MyMongoClinet);
-       // FindAllDataByQuery(MyMongoClinet)
-        //FindAllDataByLimit(MyMongoClinet)
-      // FindAllDataBySort(MyMongoClinet);
-      //  UpdateMyData(MyMongoClinet);
-       // CreateMyCollection(MyMongoClinet)
-       // DeleteMyCollection(MyMongoClinet);
+        InsertData(MyMongoClinet);
     }
 });
-
-
-
-
 
 
 
