@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4a80181-d45a-4cc4-99a7-104d65902f95" name="Changes" comment="" />
+    <list default="true" id="90c75595-6a09-488e-903d-5f496a4b1c0c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2HS53fFS3VlyrUCRk7NNgWVxn8I" />
+  <component name="ProjectId" id="2HPJ3HY3KzS9mJqzlfAK3FxfYnc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,19 +24,20 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f4a80181-d45a-4cc4-99a7-104d65902f95" name="Changes" comment="" />
-      <created>1668265446749</created>
+      <changelist id="90c75595-6a09-488e-903d-5f496a4b1c0c" name="Changes" comment="" />
+      <created>1668180584732</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1668265446749</updated>
-      <workItem from="1668265448051" duration="1237000" />
-      <workItem from="1668268815527" duration="13000" />
+      <updated>1668180584732</updated>
+      <workItem from="1668180586147" duration="3052000" />
+      <workItem from="1668265363380" duration="62000" />
     </task>
     <servers />
   </component>

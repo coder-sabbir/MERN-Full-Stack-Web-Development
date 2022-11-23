@@ -7,18 +7,8 @@ var config= { useUnifiedTopology: true };
 MongoClient.connect(URL,config,function (error,MyMongoClinet) {
     if(error){
         console.log("Connection Fail")
-
-
-
       // WE ARE STARTING........ 
-      // WAIT 2/3 MIN>......      
-
-
-
-
-
-
-
+      // WAIT 2/3 MIN>......
     }
     else{
         console.log("Connection Success");

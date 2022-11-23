@@ -1,6 +1,5 @@
 var jwt = require('jsonwebtoken');
 
-
 module.exports=(req,res,next)=>{
 
    let Token=req.headers['token-key'];
@@ -17,6 +16,4 @@ module.exports=(req,res,next)=>{
             next();
         }
     })
-
-
 }
